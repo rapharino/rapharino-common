@@ -19,11 +19,10 @@ public class MetricsRegisterTest {
     @Test
     public void counter() throws Exception {
         Counter counter = Metrics.counter(new MetricsRegister.MetricName(MetricsRegisterTest.class,"test"));
-        while (true){
+
+        for (int i = 0; i < 2; i++) {
             Thread.sleep(1000);
             counter.inc();
         }
-
     }
-
 }

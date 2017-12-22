@@ -674,7 +674,7 @@ public class MetricsRegister extends MetricRegistry {
         }
 
         /**
-         * If the group is empty, use the package name of the given class. Otherwise use
+         * IF the group is empty, use the package name of the given class. Otherwise use
          * group
          *
          * @param group The group to use by default
@@ -689,7 +689,7 @@ public class MetricsRegister extends MetricRegistry {
         }
 
         /**
-         * If the type is empty, use the simple name of the given class. Otherwise use
+         * IF the type is empty, use the simple name of the given class. Otherwise use
          * type
          *
          * @param type The type to use by default
@@ -704,7 +704,7 @@ public class MetricsRegister extends MetricRegistry {
         }
 
         /**
-         * If name is empty, use the name of the given method. Otherwise use name
+         * IF name is empty, use the name of the given method. Otherwise use name
          *
          * @param name The name to use by default
          * @param method The method being tracked
